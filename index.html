@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PORTOFOLIO">
+    <title>Olivier ANDRIAMARO | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunce:wght@600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container nav" aria-label="Main navigation">
+            <a class="brand" href="#top">Olivier ANDRIAMARO</a>
+            <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false" aria-controls="menu">Menu</button>
+            <ul class="menu" id="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="top">
+
+        <section class="hero"> 
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Frontend Developer. Madagascar </p>
+                    <h1>Build beautiful digital experiences.</h1>
+                    <p class="hero-copy">I am self-taught frontend focused on clean interface design and user experience.</p>
+                    <div class="actions">
+                        <a class="button button-primary" href="#projects">See my work</a>
+                        <a class="button button-secondary" href="#contact">Contact me</a>
+                    </div>
+                </div>
+                <div class="portrait-wrap">
+                    <div class="portrait-ring" aria-hidden="true"></div>
+                    <img class="portrait" src="picture.png" alt="Olivier ANDRIAMARO">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about"> 
+            <div class="container">
+                <p class="eyebrow">About me</p>
+                <h2>A litte about how I got here</h2>
+                <div class="two-column">
+                    <p>I started learning to code by rebuilding websites I liked, just to understand how they worked.That habit became a collection of projects and genuine love for the details:spacing, type, and the way a button feels when you press it.</p>
+                    <p>I work with HTML, CSS, and JavaScript, and I'm currently learning React, TypeScript and Python language.</p>
+                </div>
+                <dl class="facts">
+                    <div>
+                        <dt>Focus</dt>
+                        <dd>Frontend Development</dd>
+                    </div>
+                    <div>
+                        <dt>Learning</dt>
+                        <dd>React, TypeScript, Python</dd>
+                    </div>
+                    <div>
+                        <dt>Available for</dt>
+                        <dd>Junior roles, Freelance</dd>
+                    </div>
+                    <div>
+                        <dt>Resume</dt>
+                        <dd><a href="#contact">Request a copy</a></dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section-skills" id="skills"> 
+            <div class="container">
+                <p class="eyebrow">Skills</p>
+                <h2>What I build with</h2>
+                <div class="skills-list">
+                    <div class="skill">
+                        <div><span>HTML&amp;CSS</span><strong>90%</strong></div><span class="bar"><span data-level="90"></span></span>
+                    </div>
+                    <div class="skill">
+                        <div><span>JavaScript</span><strong>75%</strong></div><span class="bar"><span data-level="75"></span></span>
+                    </div>
+                    <div class="skill">
+                        <div><span>Responsive Design</span><strong>85%</strong></div><span class="bar"><span data-level="85"></span></span>
+                    </div>
+                    <div class="skill">
+                        <div><span>React, TypeScript, Python</span><strong>50%</strong></div><span class="bar"><span data-level="50"></span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects"> 
+            <div class="container">
+                <p class="eyebrow">Selected Projects</p>
+                <h2>A few things I've built</h2>
+                <div class="project-grid">
+                    <article class="project"><span class="tag">Personal project</span>
+                    <h3>Recipe Finder</h3>
+                    <p>Search recipes by ingredient and save favorites in the browser.</p><a href="#contact">View project<span aria-hidden="true"> →</span></a>
+                    </article>
+                    <article class="project"><span class="tag">Freelance project</span>
+                    <h3>Local Business Website</h3>
+                    <p>A responsive one-page website with an order button and photo gallery.</p><a href="#contact">View project<span aria-hidden="true"> →</span></a>
+                    </article>
+                    <article class="project"><span class="tag">Practice project</span>
+                    <h3>Expense Tracker</h3>
+                    <p>A vanilla JavaScript budgeting tool with forms and simple charts.</p><a href="#contact">View project<span aria-hidden="true"> →</span></a>
+                    </article>
+                    <article class="project"><span class="tag">AI bot</span>
+                    <h3>MindEase</h3>
+                    <p>It is based on the Python language using Flask module.</p><a href=" http://192.168.1.5:5000">View project</a><span aria-hidden="true"></span>→</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact"> 
+            <div class="container">
+                <p class="eyebrow">Contact</p>
+                <h2>Let's work together</h2>
+            <div class ="two-column">
+                <div class="contact-details">
+    <p>Have a project in mind? I'd love to hear about it!</p>
+
+    <a href="mailto:andriamaroolivier96@gmail.com">
+        <i class="fa-solid fa-envelope"></i> Send me an email
+    </a>
+
+    <a href="https://www.linkedin.com/in/olivier-andriamaro-301a2436b" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+
+    <a href="https://www.facebook.com/olivier.andriamaro.336893" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook"></i> Facebook
+    </a>
+
+    <a href="https://wa.me/918569964349" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+    </a>
+</div>
+                <form id="contactForm" novalidate>
+                    <label for="name">Your name</label>
+                    <input id="name" name="name" type="text" required>
+                    <label for="email">Your email</label>
+                    <input id="email" name="email" type="email" required>
+                    <label for="message"> Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button class="button button-primary" type="submit">Send message</button>
+                    <p class="form-status" id="formStatus" role="status"></p>
+                </form>
+            </div>    
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img class="footer-logo" src="picture.png" alt="Olivier Andriamaro profile" />
+                <div>
+                    <p class="footer-title">Olivier Andriamaro</p>
+                    <p class="footer-tagline">Frontend Developer • Madagascar</p>
+                </div>
+            </div>
+
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="footer-social" aria-label="Social links">
+                <a href="mailto:andriamaroolivier96@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/olivier-andriamaro-301a2436b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/olivier.andriamaro.336893" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/918569964349" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <span>© <span id="year"></span> Olivier Andriamaro. All rights reserved.</span>
+                <a href="#top">Back to top</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
